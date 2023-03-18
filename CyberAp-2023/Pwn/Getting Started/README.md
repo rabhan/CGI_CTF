@@ -97,7 +97,7 @@ After we insert 4 "B"s, (the hex representation of B is 0x42), the stack layout 
 
 ___________________________________________________________________________________________________________________________________________________
 
-J'ai vérifier le nombre de bytes a inséré pour le bof, j'ai commencer par 39 suivi de 40 et a fini par recevoir ce output par le script wrapper.py : 
+J'ai vérifier le nombre de bytes a inséré pour le bof, après quelques essaies en commencant par 38, 40 est le nombre magique et a donner ce output :
 
 python3 ./wrapper.py 
 [+] Opening connection to 209.97.134.50 on port 30135: Done
