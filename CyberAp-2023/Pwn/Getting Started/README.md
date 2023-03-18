@@ -4,7 +4,7 @@
 * flag.txt : Exemple de flag invalide
 * gs (ghostscript) : binary instrumenting tool
 * ld-linux-x86-64.so.-2 : dynamic linker/loader for Linux systems
-* libc.so.6 : shareled library 
+* libc.so.6 : shared library 
 
 # Solution 
 
