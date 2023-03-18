@@ -1,4 +1,4 @@
-# fichiers fournis par le challenge
+# Fichiers fournis par le challenge
 
 * wrapper.py : script python pour bof, modifier les valeurs requires (IP, Port, nombre de A's) et installer pwntools (pip3 install pwntools) 
 * flag.txt : Exemple de flag invalide
@@ -6,7 +6,7 @@
 * ld-linux-x86-64.so.-2 : dynamic linker/loader for Linux systems
 * libc.so.6 : shareled library 
 
-# solution 
+# Solution 
 
 Après quelques recherches j'ai exécuté : 
 
@@ -93,6 +93,9 @@ After we insert 4 "B"s, (the hex representation of B is 0x42), the stack layout 
 ◉                                                                                                 ◉
 ◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉
 
+
+
+___________________________________________________________________________________________________________________________________________________
 
 J'ai vérifier le nombre de bytes a inséré pour le bof, j'ai commencer par 39 suivi de 40 et a fini par recevoir ce output par le script wrapper.py : 
 
