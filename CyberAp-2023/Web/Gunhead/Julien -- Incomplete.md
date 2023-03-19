@@ -12,7 +12,7 @@ L'application semble être faite en suivant le principe du MVC (Model, View Cont
 
 ### challenge/views/index.php
 
-ligne 48: ``` <div> ``` du terminal
+ligne 48: ``` <div> ``` du terminal présente l'aire utilisée par le terminal
 
 ### challenge/static/js/script.js
 
@@ -33,7 +33,11 @@ La fonction exécute une commande ``` ping -c 3 {{ip}} ``` sans sanitisation. Il
 Le script: 
 ```php 
 <?php
-$output = shell_exec*'ping -c 3 localhost > ping.txt && ls');
+$output = shell_exec('ping -c 3 localhost > ping.txt && ls');
 echo "$output";
 ?>
 ```
+
+## Pistes à explorer
+
+Regarder si c'est possible de faire un reverse shell (Utiliser [ce site](https://www.revshells.com/) si nécessaire)
