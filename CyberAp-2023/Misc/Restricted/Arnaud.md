@@ -13,7 +13,7 @@ Une recherche sur google permet rapidement de trouver des trucs pour "sortir" de
 
 https://www.hacknos.com/rbash-escape-rbash-restricted-shell-escape/
 
-**ssh hackNos@<IP-Adress> -t "bash --noprofile"**
+**ssh restricted@<IP-Adress> -p <PORT> -t "bash --noprofile"**
 
 
 Une fois sortie du shell restraint, le flag se trouve asser facilement : 
