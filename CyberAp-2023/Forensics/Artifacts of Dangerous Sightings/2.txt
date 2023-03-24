@@ -1,0 +1,25 @@
+x[2]	application/x-patch		?	3/9/2023 6:31:08 AM	N/A	3/10/2023 6:31:08 AM	N/A	2	27	8ALV9LT3	C:\Users\Pandora\AppData\Local\Microsoft\Windows\INetCache\IE\8ALV9LT3\x[2]	Yes	
+
+
+
+3/9/2023 6:10:36 AM Event loggin service has shut down ID 1100
+3/9/2023 6:06:59 AM audit log was cleared ID 1102 Guid]  {fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148} 
+
+3/9/2023 6:08:00 AM All rules have been deleted from Windows Defender Firewall config ID 2033 User (NT SERVICE\mpssvc)
+
+3/9/2023 6:07:36 AM shutdown type: restart, initiated by Pandora (Other Unplanned)
+
+3/9/2023 6:10:09 AM service was installed (WindowssTask) "sc create WindowssTask binPath=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ep bypass - < C:\Windows\Tasks\ActiveSyncProvider.dll:hidden.ps1
+set to auto start
+
+3/9/2024 6:10:37 AM shutdown
+
+
+security event log gap from 3/9/2023 7:00:51 AM --- 3/9/2023 8:06:59 AM  (could be due to time sync issue)
+
+8:12:46 AM Powershell log cleared
+8:12:52 AM microsoft windows poershell/operational lof cleared
+8:14:06 windows powershell log cleared
+8:19:18 powershell log cleared
+8:23 powershell desiredstateconfig filedownloadmanager log cleared
+powershell admin log cleared
