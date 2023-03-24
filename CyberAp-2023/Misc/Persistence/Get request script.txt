@@ -1,0 +1,12 @@
+import requests
+import sys
+
+i=0
+for i in range(1000):
+	sys.stdout=open("results.txt","a")
+	url = "http:/104.248.169.157:31490/flag" #put the docker instance you have
+	requests.get(url)
+	response = requests.get(url)
+	print(response.text)
+	sys.stdout.close()
+	i += 1
